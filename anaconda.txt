@@ -1,0 +1,81 @@
+Pourquoi anaconda ?
+
+1 anaconda allows us to create different
+working environments on our computer
+
+(machin learning environment - game dev environment)
+
+2 anaconda is a tool that give the possibility to run
+different versions of python in the same computer
+
+3 helps us switch from one environment into another
+
+
+Difinition: 
+
+-conda is a package and environment manager for your command line interface
+-anaconda is a desktop application built on conda with options to lanch other
+development applications from your managed environments
+
+
+chapitre 1 (python overview):
+
+- a versatile scripting, high level, interpreted, strongly typed language.
+- it was created by guido van rossum in 1991.
+- commomly used to build server-side applications using tools like django
+or big data analysis and machine learning.
+- its code is often organized in note books where indivitual cells can be
+executed and documented in the same place.
+- python is multiparadigm language that support several programming paradigms
+like: procedural programming[more on that later], object-oriented programming
+and functional programming
+- python have its own package manager called {pip}
+
+Interpreted Language:
+compilers take source code such as C or Basic and compile it into machine code
+typically saved in executable form. Interpreted languages differ from compiled,
+interpreted code or shell code is compiled on the fly each time the program is run
+if an interpreted program os run 100 times, it will be compiled 100 times(whereas a 
+compiled program is compiled only once)
+
+Python Interpreter:
+-it takes the source code *compile it* into *Bytecode* then transfer it into
+the *virtual machine* witch also takes the library modules and user input and 
+convert it all into a running code
+
+Modules, Packages, and Libraries:
+make you save time by reusing other code writed by others.
+- a module is related code saved together in one file
+- a package is a collection of modules
+- a python library usualy contains a group or related modules and packages
+
+
+RoadMap To learn fundamental python:
+1 datatypes and variables and operators
+2 control structures: if statement, loops and controll flow
+3 basic data structures: lists, tuples, dictionaries and sets
+4 functions and scopes and lambda functions
+5 modules and packages: how to import/export packages
+6 file I/O
+7 error handling using exeptions
+
+
+------ basic anaconda commands -------
+
+conda info  - to check anaconda informations and version
+
+conda list - to list installed packages
+
+conda update --all to update all packages
+
+conda list env - to list all envirements
+
+conda remove -n <env-name> --all - to remove the enviremnent and all its packages
+
+conda create -n <env-name> python=<python-version> - to create a new enviremnent with a spicific python version
+
+
+
+
+
+sklearn scipy numpy mathplotlib
