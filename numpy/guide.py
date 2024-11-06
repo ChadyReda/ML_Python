@@ -164,6 +164,9 @@ print(list1 - list2)
 print(list1 ** list2)
 # [[ 1 256 19683 ][ 1048576 48828125 -2118184960 ]]
 
+# produit matriciel
+produit = np.dot(list1, list2)
+
 
 
 #list1 = np.array([1, 2, 3, 4])
